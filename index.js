@@ -13,7 +13,7 @@ function createWindow() {
   win = new BrowserWindow({width: 800, height: 600, titleBarStyle: 'hidden'});
 
   // and load the index.html of the app.
-  win.loadURL('https://www.youtube.com/tv');
+  win.loadURL('https://www.youtube.com/tv',{userAgent: 'Mozilla/5.0 (SMART-TV; Linux; Tizen 5.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/5.0 NativeTVAds Safari/538.1'});
 
   // Open the DevTools.
   // win.webContents.openDevTools();
